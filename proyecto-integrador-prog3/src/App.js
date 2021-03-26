@@ -21,8 +21,8 @@ function App() {
 						      <h1 className="h3 mb-0 text-gray-800">App Dashboard</h1>
 					      </div>
                   <Tarjetas />
-                  {/* <Tarjetas2 /> */}
-              </div> 
+                  <Tarjetas2 /> 
+                 </div> 
           </div>
             <Footer />
         </div>
