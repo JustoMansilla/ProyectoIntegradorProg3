@@ -1,15 +1,15 @@
 import React from 'react';
- import Tarjeta from './Tarjeta'
 
 
 function Tarjetas(props) {
     return (
             // <!-- Content Row -->
-					<div className="row">
-
+					
+			<div className="row">
 						
 
 						<React.Fragment>
+												
 						<div className="col-md-4 mb-4">
 							<div className={props.seccionTarjetas.color + "card border-left-primary shadow h-100 py-2"}>
 								<div className="card-body">
@@ -27,9 +27,9 @@ function Tarjetas(props) {
 						</div>
 						</React.Fragment>
 
-							
-
-					</div>
+			</div>	
+		
+						
     );
 }
 
